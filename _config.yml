@@ -1,6 +1,6 @@
 # This is the default format.
 # For more see: http://jekyllrb.com/docs/permalinks/
-permalink: /:categories/:year/:month/:day/:title
+permalink: /:year/:month/:day/:title
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 pygments: true
@@ -8,15 +8,15 @@ pygments: true
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap
+title : "Occam's razor"
 markdown: kramdown
-tagline: Site Tagline
+tagline: ummm...
 author :
-  name : Name Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
-  feedburner : feedname
+  name : Navgeet Agrawal
+  email : navgeet.agrawal@gmail.com
+  github : navgeet
+  twitter : navgeet_
+  feedburner : navgeet
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
@@ -26,7 +26,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://username.github.io
+production_url : http://navgeet.github.io
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -83,7 +83,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      short_name : navgeet-blog
     livefyre :
       site_id : 123
     intensedebate :
@@ -101,7 +101,7 @@ JB :
   analytics :
     provider : google
     google :
-        tracking_id : 'UA-123-12'
+        tracking_id : 'UA-50927192-1'
     getclicky :
       site_id :
     mixpanel :
